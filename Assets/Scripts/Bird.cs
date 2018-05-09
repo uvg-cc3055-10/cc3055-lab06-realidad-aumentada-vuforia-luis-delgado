@@ -10,6 +10,7 @@ public class Bird : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //obtiene el animator y el audio source
         anim = GetComponent<Animator>();
         audios = GetComponent<AudioSource>();
 	}
